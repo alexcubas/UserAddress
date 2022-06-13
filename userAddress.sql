@@ -5,8 +5,7 @@ CREATE DATABASE User_address;
 CREATE TABLE User_address.data (
 id int primary key auto_increment,
 nome varchar(50) not null,
-email varchar(100) not null,
-senha varchar(25) not null
+email varchar(100) not null
 );
 
 CREATE TABLE User_address.address (
@@ -20,10 +19,10 @@ UF varchar(2) not null,
 	FOREIGN KEY(user_id) REFERENCES data(id)
 );
 
-INSERT INTO User_address.data (nome, email, senha)
- VALUES ('alex', 'alex@gmail.com', '123456'),
-  ('rodrigo', 'rodrigao@hotmail.com', 'rodrigo123'),
-  ('breno', 'breno123@gmail.com', 'nuncasaberao');
+INSERT INTO User_address.data (nome, email)
+ VALUES ('alex', 'alex@gmail.com'),
+  ('rodrigo', 'rodrigao@hotmail.com'),
+  ('breno', 'breno123@gmail.com');
 
 INSERT INTO User_address.address (user_id, CEP, logradouro, bairro, localidade, UF)
  VALUES ('1', '81670-180', 'Rua Cascavel', 'Boqueirão', 'Curitiba', 'PR'),

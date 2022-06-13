@@ -7,7 +7,7 @@
     "build": "npx tsc",
     "prestart": "npm run build",
     "start": "ts-node app/server",
-    "predev": "npm run build && npm run db:reset",
+    "predev": "npm run build",
     "dev": "ts-node ./app/server.ts",
     "lint": "eslint ./app --ext .ts"
   },
