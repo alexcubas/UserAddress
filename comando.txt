@@ -1,0 +1,5 @@
+now secrets add task-host-db 'jelani.db.elephantsql.com'
+now secrets add task-port-db '5432'
+now secrets add task-database-db 'icafqjaz'
+now secrets add task-user-db 'icafqjaz'
+now secrets add task-password-db 'Jl7Y24xTa4n51tLnQqvBxgLwjSJ5aZ4Z'
