@@ -28,6 +28,7 @@ export default class UserService {
     })
 
     return { code: 200, data: result };
+    
   }
 
   async createUser(users: IUser) {
