@@ -10,7 +10,7 @@ Desafio no qual deveria construir uma aplicação utilizando Node.js e React.js,
 
 A aplicação pode ser acessada por [aqui](https://user-address-front-alexcubas.herokuapp.com/)
 
-Ps: Caso seu navegador tente acessar a página através do protocolo HTTPS e acuse erro, será necessário alterar manualmente a URL para o protocolo HTTP.
+Ps: As vezes demora um pouco para a aplicação carregar.
 
 ## Stacks utilizadas
 
